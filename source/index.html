@@ -93,23 +93,23 @@
                 </span>
             </p>
         </section>
-        <section class="direction-travel">
-            <h2>
+        <section class="direction__travel">
+            <h2 class="direction__title">
                 Направления
             </h2>
-            <p>
+            <p class="direction__describe">
                 Мы не продаем туры
                 и ничего не рекламируем. 
                 Люди сами пишут о странах, 
                 куда хотели бы отправиться
                 и чем можно там заняться.
             </p>
-            <div>
-                <div>
-                    <img >
-                    <p>
+            <div class="direction__offer">
+                <div class="direction__offer-info">
+                    <img class="direction__picture" src="#" alt="Picture travel">
+                    <p class="direction__title-offer">
                         Таиланд
-                        <span>
+                        <span class="direction__tagline-offer">
                             Джунгли зовут!
                         </span>
                     </p>
@@ -118,11 +118,12 @@
                     </span>
                 </div>
             </div>
-            <div>
-                <div>
-                    <p>
+            <div class="direction__offer">
+                <div class="direction__offer-info">
+                    <img class="direction__picture" src="#" alt="Picture travel">
+                    <p class="direction__title-offer">
                         Франция
-                        <span>
+                        <span class="direction__tagline-offer">
                             Трэ бьен, манифик!
                         </span>
                     </p>
@@ -133,9 +134,9 @@
             </div>
             <div>
                 <div>
-                    <p>
+                    <p class="direction__title-offer">
                         Чехия
-                        <span>
+                        <span class="direction__tagline-offer">
                             Закоулки старой Европы
                         </span>
                     </p>
@@ -144,10 +145,167 @@
                     </span>
                 </div>
             </div>
+            <button class="direction__button">Показать все</button>
         </section>
-    </main>
+        <section class="passangers">
+            <h2>Попутчики</h2>
+            <p>
+                Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга. 
+                <span>
+                    Теперь можно легко найти единомышленников!
+                </span>
+            </p>
+            <div class="passangers__card">
+                <div class="passangers__lvl-bar">  
+                    <p>
+                        99
+                        <span>lvl</span>
+                    </p>
+                </div>
+                <div class="passangers__info">
+                    <h3 class="passanger__info-title">
+                        Таня Фирсова
+                    </h3>
+                    <ul class="passangers__list-tags">
+                        <li class="passangers__list-tags-item"> 
+                            #ЗОЖ
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #ПП
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Фитнес
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Пляж
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Авокадо
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Смузи
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="passangers__card">
+                <div class="passangers__lvl-bar">  
+                    <p>
+                        80
+                        <span>lvl</span>
+                    </p>
+                </div>
+                <div class="passangers__info">
+                    <h3 class="passanger__info-title">
+                        Петя Демин
+                    </h3>
+                    <ul class="passangers__list-tags">
+                        <li class="passangers__list-tags-item"> 
+                            #Бургер
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Бар
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Футбол
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Концерт
+                        </li>
+                        <li class="passangers__list-tags-item"> 
+                            #Крафт
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="passangers__button-show-more">Показать всех</button>
+        </section>
+        <section class="add-profile">
+            <h3 class="add-profile__title">
+                Добавьте свой профиль
+            </h3>
+            <table class="add-profile__table">
+                <tbody class="add-profile__tbody">
+                    <tr class="add-profile__trbody">
+                        <td class="add-profile__column-body">Базовое размещение</td>
+                        <td class="add-profile__column-body">Бесплатно</td>
+                    </tr>
+                    <tr class="add-profile__trbody">
+                        <td class="add-profile__column-body">Вывод на первых позициях</td>
+                        <td class="add-profile__column-body">99 руб./мес</td>
+                    </tr>
+                    <tr class="add-profile__trbody">
+                        <td class="add-profile__column-body">Кастомный цвет карточки</td>
+                        <td class="add-profile__column-body">59 руб./мес</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="add-profile__link-show-more">
+                Показать тарифы для бизнеса
+            </p>
+        </section>
+        <section class="contacts">
+            <h3 class="contacts__title">
+                Заинтересовались?
+            </h3>
+            <p class="contacts__offer">
+                Зарегистрируйтесь, 
+                это быстро и бесплатно!
+                Уже зарегистрированы? Тогда 
+                скорее авторизуйтесь.
+            </p>
+            <label class="contacts__label">
+                <input class="contacts__input" type="email">
+            </label>
+            <button class="contacts__submit" type="submit"><span class="visually-hidden">Отправить</span></button>
+            <p class="contacts__callback">
+                Остались вопросы? Мы с радостью на них ответим!
+            </p>
+            <ul class="contacts__list">
+                <li class="contacts__list-item">
+                    <p>
+                        8 800 555-86-28
+                    </p>
+                </li>
+                <li class="contacts__list-item">
+                    <p>
+                        mail@htmlacademy.ru
+                    </p>
+                </li>
+            </ul>
+            <address class="contacts__address">
+                ул. Большая Конюшенная, 19/8
+            </address>
+            <button class="contacts__button contacts__button-coords">Проложить маршрут</button>
+            <iframe class="contacts__map"></iframe>
+        </section>
     <footer class="footer">
-
+        <H3>Погнали?</H3>
+        <ul class="footer__list-social">
+            <li class="footer__list-social-item">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img footer__social-fb" src="#" width="20px" height="20px" alt="icon the facebook">
+                    <span class="visually-hidden">Facebook</span>
+                </a>
+            </li>
+            <li class="footer__list-social-item">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img footer__social-vk" src="#" width="20px" height="20px" alt="icon the Vkontacte">
+                    <span class="visually-hidden">VKontacte</span>
+                </a>
+            </li>
+            <li class="footer__list-social-item">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img footer__social-inst" src="#" width="20px" height="20px" alt="icon the instagramm">
+                    <span class="visually-hidden">Instagramm</span>
+                </a>
+            </li>
+        </ul>
+        <p>
+            Разработано
+            <img src="#" alt="copyright" width="27px" height="33px">
+        </p>
     </footer>
+    </main>
 </body>
 </html>
