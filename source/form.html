@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.min.css'>
+    <title>Form</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__button"></button>
+            <h1 class="nav__title">Погнали?</h1>
+            <p class="nav__tagline">
+                Направления
+            </p>
+            <ul class="nav__list-navigation">
+                <li class="nav__list-item-navigation">
+                    <a class="nav__list-link" href="#">О сервисе</a>
+                </li>
+                <li class="nav__list-item-navigation">
+                    <a class="nav__list-link" href="#">Направления</a>
+                </li>
+                <li class="nav__list-item-navigation">
+                    <a class="nav__list-link" href="#">Попутчики</a>
+                </li>
+            </ul>
+            <a href="#" class="nav__button nav__button-call"></a>
+            <a href="#" class="nav__button nav__button-mail"></a>
+            <button class="nav__button nav__button-avtorization"></button>
+            <ul class="nav__list-social">
+                <li class="nav__list-social-item">
+                    <a class="nav__social-link" href="#">
+                        <img class="nav__social-img nav__social-fb" src="#" width="20px" height="20px" alt="icon the facebook">
+                        <span class="visually-hidden">Facebook</span>
+                    </a>            
+                </li>
+                <li class="nav__list-social-item">
+                    <a class="nav__social-link" href="#">
+                        <img class="nav__social-img nav__social-vk" src="#" width="20px" height="20px" alt="icon the Vkontacte">
+                        <span class="visually-hidden">VKontacte</span>
+                    </a>
+                </li>
+                <li class="nav__list-social-item">
+                    <a class="nav__social-link" href="#">
+                        <img class="nav__social-img nav__social-inst" src="#" width="20px" height="20px" alt="icon the instagramm">
+                        <span class="visually-hidden">Instagramm</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="profile">
+        <img class="profile__lvl" src="#" width="100px" height="100px" alt="Picture with LVL user">
+        <img class="profile__photo" src="#" width="100px" height="100px" alt="Picture with photo user">
+        <button class="profile__change-photo">Сменить фото</button>
+        <div class="profile__key-words">
+            <h2 class="profile__key-words-title">
+                ТЭГИ
+            </h2>
+            <p class="profile__key-words-discription">
+               #бургер #бар #футбол #концерт #крафт
+            </p>
+        </div>
+        <div class="profile__transport">
+            <h2 class="profile__transport-title">
+                ТРАНСПОРТ
+            </h2>
+            <img class="profile__transport-plane" src="#" width="32px" height="32px" alt="Icon with a plane">
+            <img class="profile__transport-car" src="#" width="32px" height="32px" alt="Icon with a car">
+            <img class="profile__transport-bikecycle" src="#" width="32px" height="32px" alt="Icon with a bikecycle">
+            <img class="profile__transport-man" src="#" width="32px" height="32px" alt="Icon with a man">
+        </div>
+    </section> 
+    <section class="my-plans">
+        <div class="my-plans__container">
+            <span class="my-plans__order">1</span>
+            <h3 class="my-plans__title">
+                Франция, Италия   
+            </h3>
+            <p class="my-plans__count-people">
+                3 попутчика
+            </p>
+            <p class="my-plans__date-trip">
+                26 мар — 29 мар
+            </p>
+            <a class="my-plans__change-details" href="#">
+                изменить
+            </a>
+        </div>
+        <div class="my-plans__container">
+            <span class="my-plans__order">2</span>
+            <h3 class="my-plans__title">
+                Таиланд, Индонезия
+            </h3>
+            <p class="my-plans__count-people">
+                1 попутчик
+            </p>
+            <p class="my-plans__date-trip">
+                1 июл — 15 июл
+            </p>
+            <a class="my-plans__change-details" href="#">
+                изменить
+            </a>
+        </div>        
+    </section>
+    <section class="add-plan">
+        <form class="add-plan__form" name="add_plane_form" method="POST" action="#" autocomplete="on" enctype="multipart/form-data">
+            <section class="add-plan__add-date">
+                <h3 class="add-plan__title">
+                    Шаг 1. Даты пребывания
+                </h3>
+                <p class="add-plan__describe-text">
+                    Укажите предпочтительное количество попутчиков, которых
+                    вы хотели бы позвать в поездку, и ее предполагаемую длительность.
+                </p>
+                <label>
+                    <input type="text">
+                </label>
+                <label>
+                    <input type="tet">
+                </label>
+                <label>
+                    <input type="checkbox">
+                </label>
+            </section>
+            <section class="add-plan__add-way">
+
+            </section>
+        </form>
+    </section>
+
+    
+</body>
+</html>
