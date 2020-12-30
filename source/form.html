@@ -51,6 +51,7 @@
             </ul>
         </nav>
     </header>
+    <main>
     <section class="profile">
         <img class="profile__lvl" src="#" width="100px" height="100px" alt="Picture with LVL user">
         <img class="profile__photo" src="#" width="100px" height="100px" alt="Picture with photo user">
@@ -108,6 +109,9 @@
     <section class="add-plan">
         <form class="add-plan__form" name="add_plane_form" method="POST" action="#" autocomplete="on" enctype="multipart/form-data">
             <section class="add-plan__add-date">
+                <h2 class="visually-hidden">
+                    Раздел выбор даты
+                </h2>
                 <h3 class="add-plan__title">
                     Шаг 1. Даты пребывания
                 </h3>
@@ -115,22 +119,84 @@
                     Укажите предпочтительное количество попутчиков, которых
                     вы хотели бы позвать в поездку, и ее предполагаемую длительность.
                 </p>
-                <label>
-                    <input type="text">
+                <label class="add-plan__label-search-people">ищу попутчиков:<span class="add-plan__people">чел.</span>
+                    <input class="add-plan__input-search-people" type="number">
+                </label>
+                <label class="add-plan__label-duration">длительность:<span class="add-plan-day">дн.</span>
+                    <input class="add-plan" type="number">
+                </label>
+                <label class="add-plan__label-checkbox">
+                    <input class="add-plan__input-checkbox-child" type="checkbox">Можно с детьми
                 </label>
                 <label>
-                    <input type="tet">
+                    <input type="date">
                 </label>
-                <label>
-                    <input type="checkbox">
-                </label>
+                <a class="" href="#">Следующий шаг</a>
             </section>
             <section class="add-plan__add-way">
-
+                <h2 class="visually-hidden">
+                    Раздел построения маршрута
+                </h2>
+                <h3 class="add-plan__title">
+                    Шаг 2. Маршрут
+                </h3>
+                <p class="add-plan__describe-text">
+                    Укажите страны, которые вы хотели бы посетить. 
+                    Это может быть одна или сразу несколько.
+                </p>
+                <label class="add-plan__label-country">
+                    <input class="add-plan__input-country">
+                    <button class="add-plan__button-delete">X</button>
+                </label>
+                <a class="add-plan__next-step" href="#">Следующий шаг</a>
+                <a class="add-plan__previus-step" href="#">на шаг назад</a>
             </section>
+            <section class="add-plan__entertainment">
+                <h2 class="visually-hidden">
+                    Раздел развлечения
+                </h2>
+                <h3 class="add-plan__title">
+                    Шаг 3. Развлечения
+                </h3>
+                <p class="add-plan__describe-text">
+                    Наконец, расскажите о своих планах времяпровождения. 
+                    Можно писать в свободной форме и ставить тэги.
+                </p>
+                <label class="add-plan__label-textarea">
+                    <textarea class="add-plan__input-textarea"></textarea>
+                </label>
+            </section>
+            <button class="add-plan__button-sumbit" type="submit">Отправить</button>
+            <a class="add-plan__previus-step" href="#">на шаг назад</a>
         </form>
     </section>
-
-    
+    </main>
+    <footer class="footer">
+        <H3>Погнали?</H3>
+        <ul class="footer__list-social">
+            <li class="footer__list-social-item">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img footer__social-fb" src="#" width="20px" height="20px" alt="icon the facebook">
+                    <span class="visually-hidden">Facebook</span>
+                </a>
+            </li>
+            <li class="footer__list-social-item">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img footer__social-vk" src="#" width="20px" height="20px" alt="icon the Vkontacte">
+                    <span class="visually-hidden">VKontacte</span>
+                </a>
+            </li>
+            <li class="footer__list-social-item">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img footer__social-inst" src="#" width="20px" height="20px" alt="icon the instagramm">
+                    <span class="visually-hidden">Instagramm</span>
+                </a>
+            </li>
+        </ul>
+        <p>
+            Разработано
+            <img src="#" alt="copyright" width="27px" height="33px">
+        </p>
+    </footer>    
 </body>
 </html>
