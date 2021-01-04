@@ -1,8 +1,9 @@
 .about-service {
     height: 353px;
     padding-top: 33px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background-color: $color-dark-blue;
+    background-image: url('../img/about-mobile.png');
+    border: 1px solid transparent;
 }
 
 .about-service__title {
@@ -23,6 +24,7 @@
     line-height: 22px;
     width: 211px;
     height: 109px;
+    color: $color-white;
 }
 
 .about-service__text {
