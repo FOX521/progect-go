@@ -8,9 +8,9 @@
     <title>Go!</title>
 </head>
 <body class="body">
-    <header class="header">
+    <header class="header container">
         <nav class="nav">
-            <button class="nav__button"></button>
+            <button class="nav__button">X</button>
             <h1 class="nav__title">Погнали?</h1>
             <p class="nav__tagline">
                 В путешествие с крутыми попутчиками!
@@ -26,9 +26,17 @@
                     <a class="nav__list-link" href="./catalog.html">Попутчики</a>
                 </li>
             </ul>
-            <a href="#" class="nav__button nav__button-call"></a>
-            <a href="#" class="nav__button nav__button-mail"></a>
-            <button class="nav__button nav__button-avtorization"></button>
+            <a href="#" class="nav__button nav__button-call">
+                <img class="nav__phone-img" src="#" alt="picture with a phone" width="32px" height="32px">
+            </a>
+            <a href="#" class="nav__button nav__button-mail">
+                <img class="nav__mail=img" src="#" alt="Picture with a mail" width="32px" height="32px"> 
+            </a>
+            <button class="nav__button nav__button-avtorization">
+                <span class="nav__button-text">
+                    Авторизация
+                </span>
+                </button>
             <ul class="nav__list-social">
                 <li class="nav__list-social-item">
                     <a class="nav__social-link" href="#">
@@ -51,50 +59,52 @@
             </ul>
         </nav>
         <section class="advantages">
-            <p>
+            <p class="advantages__citate">
                 «Лучшее приложение, что я видел в жизни!»
-                <span>
+                <span class="advantages__author">
                     Мурат Эльтазин
                     главный редактор 
                     газеты «гаджетлайф»
                 </span>
             </p>
-            <div class="advantages__block-describe">
+            <div class="advantages__container">
+            <div class="advantages__column-describe advantages__first-column">
                 <p class="advantages__describe-text">
                     Выберите направление<span class="advantages__describe-order">1</span>
                 </p>
             </div>
-            <div class="advantages__block-describe">
+            <div class="advantages__column-describe advantages__twice-column">
                 <p class="advantages__describe-text">
                     Изучите идеи путешественников<span class="advantages__describe-order">2</span>
                 </p>
             </div>
-            <div class="advantages__block-describe">
+            <div class="advantages__column-describe advantages__third-column">
                 <p class="advantages__describe-text">
                     Находите тех, кто похож на вас<span class="advantages__describe-order">3</span>
                 </p>
             </div>
-            <div class="advantages__block-describe">
+            <div class="advantages__column-describe advantages__fourth-column">
                 <p class="advantages__describe-text">
                     Путешествуйте вместе!<span class="advantages__describe-order">4</span>
                 </p>
             </div>
+            </div>
         </section>
     </header>
     <main class="main">
-        <section class="about-service">
-            <h2>О сервисе</h2>
-            <p>
+        <section class="about-service container">
+            <h2 class="about-service__title">О сервисе</h2>
+            <p class="about-service__describe">
                 Любое путешествие веселее с попутчиками, которые на одной волне с тобой! 
                 Делитесь своими идеями путешествий и черпайте вдохновение в чужих. 
-                <span>
+                <span class="about-service__text">
                     А если найдете кого-то 
                     близкого по духу — скорее 
                     зовите в совместный трип!
                 </span>
             </p>
         </section>
-        <section class="direction">
+        <section class="direction container">
             <h2 class="direction__title">
                 Направления
             </h2>
@@ -114,7 +124,7 @@
                             Джунгли зовут!
                         </span>
                     </p>
-                    <span>
+                    <span class="direction__count-people"   >
                         18321
                     </span>
                 </div>
@@ -128,27 +138,32 @@
                             Трэ бьен, манифик!
                         </span>
                     </p>
-                    <span>
+                    <span class="direction__count-people">
                         12518
                     </span>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="direction__offer">
+                <div class="direction__offer-info">
+                    <img class="direction__picture" src="#" alt="Picture travel">
                     <p class="direction__title-offer">
                         Чехия
                         <span class="direction__tagline-offer">
                             Закоулки старой Европы
                         </span>
                     </p>
-                    <span>
+                    <span class="direction__count-people">
                         5326
                     </span>
                 </div>
             </div>
-            <button class="direction__button">Показать все</button>
+            <button class="direction__button">
+                <span class="direction__text-button">
+                    Показать все
+                </span>
+            </button>
         </section>
-        <section class="passangers">
+        <section class="passangers container">
             <h2>Попутчики</h2>
             <p>
                 Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. 
@@ -222,7 +237,7 @@
             </div>
             <button class="passangers__button-show-more">Показать всех</button>
         </section>
-        <section class="add-profile">
+        <section class="add-profile container">
             <h3 class="add-profile__title">
                 Добавьте свой профиль
             </h3>
@@ -246,7 +261,7 @@
                 Показать тарифы для бизнеса
             </p>
         </section>
-        <section class="contacts">
+        <section class="contacts container">
             <h3 class="contacts__title">
                 Заинтересовались?
             </h3>
@@ -279,9 +294,9 @@
                 ул. Большая Конюшенная, 19/8
             </address>
             <button class="contacts__button contacts__button-coords">Проложить маршрут</button>
-            <iframe class="contacts__map"></iframe>
+            <iframe class="contacts__map" width="100%"></iframe>
         </section>
-    <footer class="footer">
+    <footer class="footer container">
         <H3>Погнали?</H3>
         <ul class="footer__list-social">
             <li class="footer__list-social-item">

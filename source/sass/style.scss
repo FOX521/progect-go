@@ -1,4 +1,9 @@
+@import 'global.scss';
+@import 'variable.scss';
 @import 'fonts.scss';
 @import 'mixin.scss';
 @import "blocks/header.scss";
 @import "blocks/nav.scss"; 
+@import "blocks/advantages.scss";
+@import "blocks/about-service";
+@import "blocks/direction.scss";
