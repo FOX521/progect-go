@@ -1,0 +1,36 @@
+.about-service {
+    height: 353px;
+    padding-top: 33px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.about-service__title {
+    margin: 0;
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-third-special-orange;
+}
+
+.about-service__describe {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    width: 211px;
+    height: 109px;
+}
+
+.about-service__text {
+    display: block;
+    margin-top: 20px;
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
