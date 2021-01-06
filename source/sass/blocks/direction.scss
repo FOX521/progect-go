@@ -1,4 +1,7 @@
 .direction {
+    position: relative;
+    z-index: 3;
+    margin-top: -20px;
     padding-top: 71px;
     padding-bottom: 34px;
     background-color: $color-light-blue;
