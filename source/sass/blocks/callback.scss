@@ -1,0 +1,105 @@
+.contacts {
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: 40px;
+    background-color: $color-black;
+}
+
+.contacts__title {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-first-special-orange;
+    text-align: center;
+}
+
+.contacts__offer {
+    width: 218px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Blogger Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: $color-white;
+}
+
+.contacts__input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 29px;
+    width: 280px;
+    height: 62px;
+    border-radius: 10px;
+}
+
+.contacts__callback {
+    width: 216px;
+    margin: 0 auto;
+    margin-top: 29px;
+    font-family: Blogger Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: $color-white;
+}
+
+.contacts__list {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    color: $color-fourth-special-orange;
+    text-align: center;
+}
+
+.contacts__list-item {
+
+}
+
+.contacts__number {
+    
+}
+
+.contacts__email {
+
+}
+
+.contacts__container {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.contacts__address {
+    width: 143px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contacts__button {
+    position: relative;
+    width: 270px;
+    height: 62px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid $color-black;
+    border-radius: 10px;
+}
+
+.contacts__map {
+
+}

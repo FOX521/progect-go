@@ -1,0 +1,77 @@
+.passangers {
+    position: relative;
+    z-index: 2;
+    padding-top: 62px;
+    padding-bottom: 25px;
+    margin-top: -20px;
+    color: $color-white;
+    background-color: $color-black;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.passangers__title {    
+    margin: 0;
+    margin-left: 30px;
+    color: $color-first-special-orange;
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.passangers__describe {
+    width: 217px;
+    margin-left: 30px;
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.passangers__text {
+    display: block;
+    margin-top: 25px;
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.passangers__card {
+    width: 270px;
+    background-color: yellow;
+    border-radius: 10px;
+    color: $color-black;
+}
+
+.passangers__info {
+    width: 100%;
+    background-color: $color-white;
+    border-radius: 10px;
+    color: $color-black;
+}
+
+.passangers__button-show-more {
+    position: relative;
+    width: 270px;
+    height: 61px;
+    font-family: Blogger Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: $color-black;
+    background-color: $color-yellow;
+    border-radius: 10px;
+}
+
+.passangers__button-text {
+    position: absolute;
+    left: 22px;
+    top: 21px;
+}

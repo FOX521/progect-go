@@ -172,11 +172,11 @@
             </button>
         </section>
         <section class="passangers container">
-            <h2>Попутчики</h2>
-            <p>
+            <h2 class="passangers__title">Попутчики</h2>
+            <p class="passangers__describe">
                 Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. 
                 Одному нужен пляж и коктейль, а другому маршрут для хайкинга. 
-                <span>
+                <span class="passangers__text">
                     Теперь можно легко найти единомышленников!
                 </span>
             </p>
@@ -243,7 +243,11 @@
                     </ul>
                 </div>
             </div>
-            <button class="passangers__button-show-more">Показать всех</button>
+            <button class="passangers__button-show-more">
+                <span class="passangers__button-text">
+                    Показать всех
+                </span>
+            </button>
         </section>
         <section class="add-profile container">
             <h3 class="add-profile__title">
@@ -279,29 +283,31 @@
                 Уже зарегистрированы? Тогда 
                 скорее авторизуйтесь.
             </p>
-            <label class="contacts__label">
+            <label class="contacts__label"><span class="visually-hidden">e-mail</span>
                 <input class="contacts__input" type="email">
             </label>
-            <button class="contacts__submit" type="submit"><span class="visually-hidden">Отправить</span></button>
+            <button class="contacts__submit visually-hidden" type="submit"><span class="visually-hidden">Отправить</span></button>
             <p class="contacts__callback">
                 Остались вопросы? Мы с радостью на них ответим!
             </p>
             <ul class="contacts__list">
                 <li class="contacts__list-item">
-                    <p>
+                    <p class="contacts__number">
                         8 800 555-86-28
                     </p>
                 </li>
                 <li class="contacts__list-item">
-                    <p>
+                    <p class="contacts__email">
                         mail@htmlacademy.ru
                     </p>
                 </li>
             </ul>
-            <address class="contacts__address">
-                ул. Большая Конюшенная, 19/8
-            </address>
-            <button class="contacts__button contacts__button-coords">Проложить маршрут</button>
+            <div class="contacts__container">
+                <address class="contacts__address">
+                    ул. Большая Конюшенная, 19/8
+                </address>
+                <button class="contacts__button contacts__button-coords">Проложить маршрут</button>
+            </div>
             <iframe class="contacts__map" width="100%"></iframe>
         </section>
     <footer class="footer container">
